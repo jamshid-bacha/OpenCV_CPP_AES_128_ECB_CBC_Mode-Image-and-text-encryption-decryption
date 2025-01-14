@@ -26,8 +26,10 @@ Built with C++ and OpenCV, ensuring efficiency and flexibility across various pl
 2. .\compile.bat .\decimagtext.cpp ./decrypted.exe
 3. Two EXE files will be generated
 4. Double click encrypted.exe and run choose the image/text and choose the mode ECB or CBC
-For images, OpenCV processes pixel data to encrypt the image matrix.
-For text, the string data is converted into blocks and encrypted.
+5. 
+For images, OpenCV processes pixel data to encrypt the image matrix
+
+For text, the string data is converted into blocks and encrypted
 
 
 ![lenna](https://github.com/user-attachments/assets/c35a2162-d9e3-4553-87d2-8f7f30296522)
