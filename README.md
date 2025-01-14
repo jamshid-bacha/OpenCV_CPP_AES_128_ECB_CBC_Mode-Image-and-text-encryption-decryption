@@ -48,13 +48,19 @@ For text, the string data is converted into blocks and encrypted.
 
 **III. Security Parameters:**
 Key Size -> 128 bits for both modes.
+
 Initialization Vector (IV)-> Used for CBC mode to provide randomness in encryption.
 
 # IV. Potential Applications: #
+
 **Secure Communication:** Encrypt sensitive text messages or documents for safe transmission.
+
 **Image Protection:** Securely share confidential or sensitive images by encrypting pixel data.
+
 **Data Storage Security:** Protect stored text and image files from unauthorized access.
+
 **Privacy in Cloud Sharing:** Safeguard personal or sensitive files when using cloud storage.
+
 **Cryptographic Learning Tool:** Practical resource for understanding encryption techniques with OpenCV and C++.
 
 
