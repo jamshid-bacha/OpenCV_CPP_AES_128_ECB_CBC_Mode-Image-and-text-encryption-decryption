@@ -49,6 +49,7 @@ For text, the string data is converted into blocks and encrypted.
 **III. Security Parameters:**
 
 Key Size -> 128 bits for both modes.
+
 Initialization Vector (IV)-> Used for CBC mode to provide randomness in encryption.
 
 # IV. Potential Applications: #
