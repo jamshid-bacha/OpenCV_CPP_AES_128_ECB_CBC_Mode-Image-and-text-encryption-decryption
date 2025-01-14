@@ -29,9 +29,11 @@ Built with C++ and OpenCV, ensuring efficiency and flexibility across various pl
 For images, OpenCV processes pixel data to encrypt the image matrix.
 For text, the string data is converted into blocks and encrypted.
 
+
 ![lenna](https://github.com/user-attachments/assets/c35a2162-d9e3-4553-87d2-8f7f30296522)
 
 5. The figure will be encrypted as shown below
+
 ![EncImageCBC](https://github.com/user-attachments/assets/fc3a3996-7dfe-4e13-ad16-d453fbf4b81a)
 
 **II. Decryption Process:**
@@ -39,8 +41,8 @@ For text, the string data is converted into blocks and encrypted.
 7. The encrypted data (text or image) is fed into the decryption function.
 8. The same mode (ECB or CBC) and key used for encryption must be applied for successful decryption.
 9. The decrypted text or image is reconstructed and displayed.
-![DecryptedCBC](https://github.com/user-attachments/assets/e642a973-548a-47dc-a8e8-0b945ebba033)
 
+![DecryptedCBC](https://github.com/user-attachments/assets/e642a973-548a-47dc-a8e8-0b945ebba033)
 
 
 **III. Security Parameters:**
