@@ -37,10 +37,12 @@ For text, the string data is converted into blocks and encrypted.
 ![EncImageCBC](https://github.com/user-attachments/assets/fc3a3996-7dfe-4e13-ad16-d453fbf4b81a)
 
 **II. Decryption Process:**
+
 6. Now double-click on decrypted.exe choose the image/text
 7. The encrypted data (text or image) is fed into the decryption function.
 8. The same mode (ECB or CBC) and key used for encryption must be applied for successful decryption.
 9. The decrypted text or image is reconstructed and displayed.
+10. 
 
 ![DecryptedCBC](https://github.com/user-attachments/assets/e642a973-548a-47dc-a8e8-0b945ebba033)
 
