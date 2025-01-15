@@ -2,7 +2,9 @@
 This project is a C++ based encryption and decryption tool using AES-128 and OpenCV for both images and text. It implements two modes of operation for encryption:
 
 AES-128 ECB (Electronic Codebook Mode)
+
 AES-128 CBC (Cipher Block Chaining Mode)
+
 The tool ensures secure handling of sensitive data by applying robust cryptographic methods.
 
 ![Screenshot 2025-01-14 154423](https://github.com/user-attachments/assets/9d06efe7-a324-4415-85da-ad46f98ea584)
