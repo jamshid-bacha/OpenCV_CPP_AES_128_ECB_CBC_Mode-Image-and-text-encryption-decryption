@@ -10,18 +10,24 @@ The tool ensures secure handling of sensitive data by applying robust cryptograp
 
 # Features #
 **1. Dual-Mode Encryption:**
+
 AES-128 ECB: Encrypts data block by block without chaining, offering simplicity but with a potential for pattern exposure.
+
 AES-128 CBC: Provides enhanced security by chaining blocks together, making it resistant to pattern analysis.
 
 **2. Support for Images and Text:**
+
 Images are encrypted and decrypted using OpenCV for processing pixel-level data.
+
 Text is encrypted and decrypted as a sequence of bytes, ensuring secure communication or storage.
 
 **3. Cross-Platform Compatibility:**
+
 Built with C++ and OpenCV, ensuring efficiency and flexibility across various platforms.
 
 # How It Works: #
 **I. Encryption Process:**
+
 1. .\compile.bat .\encimagtext.cpp ./encrypted.exe
 2. .\compile.bat .\decimagtext.cpp ./decrypted.exe
 3. Two EXE files will be generated
